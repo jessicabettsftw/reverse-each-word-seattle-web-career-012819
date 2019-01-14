@@ -5,7 +5,7 @@ def reverse_each_word(phrase)
 end
 
 def word_reversed_array(array)
-  phrase_array.collect do |word|
+  array.collect do |word|
     word.reverse
   end
 end
